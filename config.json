@@ -1,5 +1,5 @@
 {
-  "ipinfo_token": "f9570def9e30b9",
+  "ipinfo_token": "enter_api_key",
   "database_path": "ip_analysis.db",
   "output_directory": "reports",
   "rate_limit_delay": 0.1,
