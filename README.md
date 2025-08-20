@@ -58,19 +58,14 @@ Edit `config.json`:
 }
 ```
 
-  ------------------------------------------------------------------------
-  Option             Description                         Default
-  ------------------ ----------------------------------- -----------------
-  ipinfo_token       Your IPInfo API token               Required
+| Option           | Description                       | Default        |
+|------------------|-----------------------------------|----------------|
+| ipinfo_token     | Your IPInfo API token             | Required       |
+| database_path    | SQLite cache database             | ip_analysis.db |
+| output_directory | Directory for JSON reports        | reports        |
+| rate_limit_delay | Delay between API calls (seconds) | 0.1            |
+| max_workers      | Max concurrent threads            | 3              |
 
-  database_path      SQLite cache database               ip_analysis.db
-
-  output_directory   Directory for JSON reports          reports
-
-  rate_limit_delay   Delay between API calls (seconds)   0.1
-
-  max_workers        Max concurrent threads              3
-  ------------------------------------------------------------------------
 
 Get a token at [ipinfo.io](https://ipinfo.io).
 
