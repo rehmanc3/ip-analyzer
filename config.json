@@ -1,0 +1,7 @@
+{
+  "ipinfo_token": "f9570def9e30b9",
+  "database_path": "ip_analysis.db",
+  "output_directory": "reports",
+  "rate_limit_delay": 0.1,
+  "max_workers": 3
+}
